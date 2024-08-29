@@ -1,0 +1,24 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:po="http://schemas.microsoft.com/winfx/2006/xaml/presentation/options"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Color x:Key="ColorShadow">#000000</Color>
+    <SolidColorBrush x:Key="DevCShadowBrush" 
+                     Color="{StaticResource ColorShadow}"></SolidColorBrush>
+    <DropShadowEffect x:Key="MaterialDesignShadowDepth1"
+                      BlurRadius="5"
+                      Direction="270"
+                      Opacity=".42"
+                      RenderingBias="Performance"
+                      ShadowDepth="1"
+                      Color="{StaticResource ColorShadow}"
+                      po:Freeze="True" />
+
+    <DropShadowEffect x:Key="MaterialDesignShadowDepth2"
+                      BlurRadius="8"
+                      Direction="270"
+                      Opacity=".42"
+                      RenderingBias="Performance"
+                      ShadowDepth="1.5"
+                      Color="{StaticResource ColorShadow}"
+                      po:Freeze="True" />
+</ResourceDictionary>
