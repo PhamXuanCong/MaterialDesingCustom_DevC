@@ -6,6 +6,11 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
+	  <NoWarn>CS1591;CS1574</NoWarn>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MaterialDesignThemeCustom_By_DevC\MaterialDesignThemeCustom_By_DevC.csproj" />
+  </ItemGroup>
 
 </Project>

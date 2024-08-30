@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "MaterialDesigCustom_DevC/1.0.0": {
+        "dependencies": {
+          "MaterialDesignThemeCustom_By_DevC": "1.0.0"
+        },
         "runtime": {
           "MaterialDesigCustom_DevC.dll": {}
+        }
+      },
+      "MaterialDesignThemeCustom_By_DevC/1.0.0": {
+        "runtime": {
+          "MaterialDesignThemeCustom_By_DevC.dll": {}
         }
       }
     }
   },
   "libraries": {
     "MaterialDesigCustom_DevC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MaterialDesignThemeCustom_By_DevC/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,26 +1,53 @@
 {
   "version": 3,
   "targets": {
-    "net7.0-windows7.0": {}
+    "net7.0-windows7.0": {
+      "MaterialDesignThemeCustom_By_DevC/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/MaterialDesignThemeCustom_By_DevC.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MaterialDesignThemeCustom_By_DevC.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MaterialDesignThemeCustom_By_DevC/1.0.0": {
+      "type": "project",
+      "path": "../MaterialDesignThemeCustom_By_DevC/MaterialDesignThemeCustom_By_DevC.csproj",
+      "msbuildProject": "../MaterialDesignThemeCustom_By_DevC/MaterialDesignThemeCustom_By_DevC.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0-windows7.0": []
+    "net7.0-windows7.0": [
+      "MaterialDesignThemeCustom_By_DevC >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\phamx\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TaiLieuLT\\Wpf\\MaterialDesignUi\\UICustom\\MaterialDesigCustom_DevC\\MaterialDesigCustom_DevC\\MaterialDesigCustom_DevC.csproj",
+      "projectUniqueName": "D:\\Bimspeed\\00.Code\\MaterialDesingCustom_DevC\\MaterialDesigCustom_DevC\\MaterialDesigCustom_DevC.csproj",
       "projectName": "MaterialDesigCustom_DevC",
-      "projectPath": "D:\\TaiLieuLT\\Wpf\\MaterialDesignUi\\UICustom\\MaterialDesigCustom_DevC\\MaterialDesigCustom_DevC\\MaterialDesigCustom_DevC.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\TaiLieuLT\\Wpf\\MaterialDesignUi\\UICustom\\MaterialDesigCustom_DevC\\MaterialDesigCustom_DevC\\obj\\",
+      "projectPath": "D:\\Bimspeed\\00.Code\\MaterialDesingCustom_DevC\\MaterialDesigCustom_DevC\\MaterialDesigCustom_DevC.csproj",
+      "packagesPath": "C:\\Users\\phamx\\.nuget\\packages\\",
+      "outputPath": "D:\\Bimspeed\\00.Code\\MaterialDesingCustom_DevC\\MaterialDesigCustom_DevC\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\phamx\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,14 +55,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
-        "D:\\Project\\nuget": {},
+        "C:\\nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Bimspeed\\00.Code\\MaterialDesingCustom_DevC\\MaterialDesignThemeCustom_By_DevC\\MaterialDesignThemeCustom_By_DevC.csproj": {
+              "projectPath": "D:\\Bimspeed\\00.Code\\MaterialDesingCustom_DevC\\MaterialDesignThemeCustom_By_DevC\\MaterialDesignThemeCustom_By_DevC.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -71,7 +101,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300-preview.24203.14\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
       }
     }
   }

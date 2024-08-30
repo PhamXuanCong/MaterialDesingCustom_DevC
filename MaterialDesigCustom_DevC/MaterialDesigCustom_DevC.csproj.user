@@ -7,16 +7,15 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="UserControl1.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="ResourceDictionary\Style.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="ResourceDictionary\TabControlStyle.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="ResourceDictionary\Theme.Shadows.xaml">
+    <Page Update="UserControl1.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

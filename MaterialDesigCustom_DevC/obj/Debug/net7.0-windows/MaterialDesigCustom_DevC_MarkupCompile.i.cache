@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\TaiLieuLT\Wpf\MaterialDesignUi\UICustom\MaterialDesigCustom_DevC\MaterialDesigCustom_DevC\obj\Debug\net7.0-windows\
+D:\Bimspeed\00.Code\MaterialDesingCustom_DevC\MaterialDesigCustom_DevC\obj\Debug\net7.0-windows\
 MaterialDesigCustom_DevC
 none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
-D:\TaiLieuLT\Wpf\MaterialDesignUi\UICustom\MaterialDesigCustom_DevC\MaterialDesigCustom_DevC\App.xaml
-41183459433
+D:\Bimspeed\00.Code\MaterialDesingCustom_DevC\MaterialDesigCustom_DevC\App.xaml
+21367527609
 
-14-1915321269
-198746682509
-MainWindow.xaml;ResourceDictionary\Style.xaml;ResourceDictionary\TabControlStyle.xaml;ResourceDictionary\Theme.Shadows.xaml;
+71457479184
+199-878334833
+MainWindow.xaml;UserControl1.xaml;
 
 True
 
