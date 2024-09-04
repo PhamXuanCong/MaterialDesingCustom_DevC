@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 
-3573325665
+4-41335249
 
 11-335610250
 198650335325
-Themes\Style.xaml;Themes\TabControlStyle.xaml;Window1.xaml;
+Themes\ButtonStyle.xaml;Themes\Style.xaml;Themes\TabControlStyle.xaml;Window1.xaml;
 
-False
+True
 

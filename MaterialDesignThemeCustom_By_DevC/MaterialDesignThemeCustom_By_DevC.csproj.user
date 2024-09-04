@@ -7,6 +7,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="Themes\ButtonStyle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Themes\Style.xaml">
       <SubType>Designer</SubType>
     </Page>
