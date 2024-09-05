@@ -10,7 +10,7 @@
     <Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemeCustom_By_DevC;component/Themes/TabControlStyle.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemeCustom_By_DevC;component/Themes/Style.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Window.Resources>
@@ -19,13 +19,15 @@
                 <TabItem Header="Tab1">
                     <StackPanel>
                         <Button Height="28" Content="Oke"></Button>
-                        <Button Height="28" Content="Oke"></Button>
-                        <Button Height="28" Content="Oke"></Button>
-                        <Button Height="28" Content="Oke"></Button>
                     </StackPanel>
                 </TabItem>
                 <TabItem Header="Tab2"></TabItem>
             </TabControl>
+
+        <Button Height="20"
+                theme:ButtonAssist.CornerRadius="0 5 0 5"
+                Content="ButtonTest"
+                Style="{StaticResource ButtonStyle}"></Button>
 
             <local:UserControl1 SetText = "Hellow World 123"/>
 </StackPanel>

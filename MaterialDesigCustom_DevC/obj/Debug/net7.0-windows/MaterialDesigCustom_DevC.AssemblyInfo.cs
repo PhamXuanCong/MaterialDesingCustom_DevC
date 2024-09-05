@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MaterialDesigCustom_DevC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa14f51cb4c84f25af00419ff7565e98eaa54a8a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a8d299213f8b74f2cc0b50b62a4bf80e90c2fe0")]
 [assembly: System.Reflection.AssemblyProductAttribute("MaterialDesigCustom_DevC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MaterialDesigCustom_DevC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

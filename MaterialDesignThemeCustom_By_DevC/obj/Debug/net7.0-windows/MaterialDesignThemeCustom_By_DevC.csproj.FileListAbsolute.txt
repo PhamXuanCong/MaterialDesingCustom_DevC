@@ -18,3 +18,4 @@ D:\Bimspeed\00.Code\MaterialDesingCustom_DevC\MaterialDesignThemeCustom_By_DevC\
 D:\Bimspeed\00.Code\MaterialDesingCustom_DevC\MaterialDesignThemeCustom_By_DevC\obj\Debug\net7.0-windows\Themes\Style.baml
 D:\Bimspeed\00.Code\MaterialDesingCustom_DevC\MaterialDesignThemeCustom_By_DevC\obj\Debug\net7.0-windows\Window1.g.cs
 D:\Bimspeed\00.Code\MaterialDesingCustom_DevC\MaterialDesignThemeCustom_By_DevC\obj\Debug\net7.0-windows\Window1.baml
+D:\Bimspeed\00.Code\MaterialDesingCustom_DevC\MaterialDesignThemeCustom_By_DevC\obj\Debug\net7.0-windows\Themes\ButtonStyle.baml
