@@ -1,0 +1,83 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\TaiLieuLT\\Wpf\\MaterialDesignUi\\UICustom\\MaterialDesingCustom_DevC\\SocialMediaProject\\SocialMediaProject.csproj": {}
+  },
+  "projects": {
+    "D:\\TaiLieuLT\\Wpf\\MaterialDesignUi\\UICustom\\MaterialDesingCustom_DevC\\SocialMediaProject\\SocialMediaProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\TaiLieuLT\\Wpf\\MaterialDesignUi\\UICustom\\MaterialDesingCustom_DevC\\SocialMediaProject\\SocialMediaProject.csproj",
+        "projectName": "SocialMediaProject",
+        "projectPath": "D:\\TaiLieuLT\\Wpf\\MaterialDesignUi\\UICustom\\MaterialDesingCustom_DevC\\SocialMediaProject\\SocialMediaProject.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\TaiLieuLT\\Wpf\\MaterialDesignUi\\UICustom\\MaterialDesingCustom_DevC\\SocialMediaProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "D:\\Project\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "LiveCharts.Wpf": {
+              "target": "Package",
+              "version": "[0.9.7, )"
+            },
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[5.1.1-ci745, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300-preview.24203.14/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

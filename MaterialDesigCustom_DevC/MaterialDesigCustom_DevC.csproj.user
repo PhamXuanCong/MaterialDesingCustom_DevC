@@ -7,12 +7,18 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="UISocial\Dasboard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="UserControl1.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UISocial\Dasboard.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UserControl1.xaml">
